@@ -21,12 +21,12 @@ const HeroOne = () => {
                     <div className="row align-items-center">
                       <div className="col-md-9">
                         <form>
-                          <input type="text" className="form-control" placeholder="Write your prompt and get you best ai artwork!" />
+                          <input type="text" className="form-control" placeholder="Paste Tiktok URL..." />
                         </form>
                       </div>
                       <div className="col-lg-3">
                         <form>
-                          <button className="btn" type="submit">Generate</button>
+                          <button className="btn" type="submit">Download</button>
                         </form>
                       </div>
                     </div>
