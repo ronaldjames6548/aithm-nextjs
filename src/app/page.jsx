@@ -7,12 +7,16 @@ import HeroOne from '@/components/sections/heros/heroOne'
 import PriceOne from '@/components/sections/pricing/priceOne'
 import TeamSlider from '@/components/sections/team/teamSlider'
 import TestimonialOne from '@/components/sections/testimonial/testimonialOne'
-import React from 'react'
+import TikTokResults from '@/components/TikTokResults'
+import React, { useState } from 'react'
 
 const Home = () => {
+    const [tikTokData, setTikTokData] = useState(null);
+
     return (
         <>
-            <HeroOne />
+            <HeroOne onDataReceived={setTikTokData} />
+            {tikTokData && <TikTokResults data={tikTokData} />}
             <Features />
             <AboutOne />
             <Brand className={"pb-100"}/>
