@@ -1,0 +1,45 @@
+export const pricingData = [
+    {
+        id: 1,
+        isPopular: true,
+        planName: "Montly Plan",
+        description: "Our ai text generator will be give you a best solution.",
+        price: 500,
+        billingFrequency: "/m",
+        features: [
+            "Unlimited Projects",
+            "Download prototypes",
+            "10 user Limite",
+        ],
+        buttonText: "Get Started",
+    },
+    {
+        id: 2,
+        isPopular: false,
+        isExclusive: true,
+        planName: "Yearly Plan",
+        description: "Our ai text generator will be give you a best solution.",
+        price: 1200,
+        billingFrequency: "/y",
+        features: [
+            "Unlimited Projects",
+            "Download prototypes",
+            "10 user Limite",
+        ],
+        buttonText: "Get Started",
+    },
+    {
+        id: 3,
+        isPopular: true,
+        planName: "Montly Plan",
+        description: "Our ai text generator will be give you a best solution.",
+        price: 500,
+        billingFrequency: "/m",
+        features: [
+            "Unlimited Projects",
+            "Download prototypes",
+            "10 user Limite",
+        ],
+        buttonText: "Get Started",
+    },
+];
